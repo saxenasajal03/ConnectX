@@ -39,7 +39,7 @@ app.use("/api/chat",  chatRoutes);
 
 /* ---------- Dev root helper ---------- */
 app.get("/", (_, res) =>
-  res.send("🚀 Backend up. API under /api. In dev, open http://localhost:5173")
+  res.send("Welcome to ConnectX go to /login")
 );
 
 /* ---------- Serve SPA in production ---------- */
